@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cryptokitties-ui/static/css/main.a6b9d2dc.css",
+    "main.js": "/cryptokitties-ui/static/js/main.db8655fb.js",
+    "static/media/not-available.jpg": "/cryptokitties-ui/static/media/not-available.404ebe8b6ccfbe3cd39e.jpg",
+    "static/media/error-img.jpg": "/cryptokitties-ui/static/media/error-img.1887e651a5d0c822c65f.jpg",
+    "index.html": "/cryptokitties-ui/index.html",
+    "main.a6b9d2dc.css.map": "/cryptokitties-ui/static/css/main.a6b9d2dc.css.map",
+    "main.db8655fb.js.map": "/cryptokitties-ui/static/js/main.db8655fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6b9d2dc.css",
+    "static/js/main.db8655fb.js"
+  ]
+}
