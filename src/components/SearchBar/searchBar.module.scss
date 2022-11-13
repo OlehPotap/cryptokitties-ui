@@ -1,0 +1,114 @@
+@import "../../assets/sass/mixins";
+.Searchbar {
+  top: 0;
+  left: 0;
+  position: sticky;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 64px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  // color: #fff;
+  background-color: #3f51b5;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  width: 100%;
+
+  @include mq(mobile-only) {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 280px;
+    max-width: 440px;
+  }
+
+  @include mq(tablet-only) {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 704px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  @include mq(desktop) {
+    width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.SortSelect {
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 600px;
+
+  @include mq(tablet-only) {
+    max-width: 504px;
+  }
+
+  @include mq(mobile-only) {
+    max-width: 180px;
+  }
+
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.SearchFormInput::placeholder {
+  font: inherit;
+  font-size: 18px;
+}
+
+.SortLabel {
+  // position: absolute;
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+
+  @include mq(tablet-only) {
+    max-width: 704px;
+  }
+
+  @include mq(mobile-only) {
+    max-width: 280px;
+  }
+}
+
+.SortSelect {
+  width: 100%;
+  outline: none;
+}
+
+.reverseOrderLabel {
+  color: white;
+  display: flex;
+  align-items: center;
+
+  @include mq(mobile-only) {
+    margin-top: 10px;
+  }
+
+  @include mq(tablet-only) {
+    margin-top: 10px;
+  }
+}
+
+.reverseOrderInput {
+  margin-left: 10px;
+}
